@@ -18,14 +18,25 @@
 
 <div id="pre-header">
    <div class="wrapper">
-        <p>(044) 360-43-46 &mdash;  &diams; &mdash; (050) 086-10-03 &mdash;  &diams; &mdash; (093) 709-35-57 &mdash;  &diams; &mdash; (097) 395-75-76</p>
+        <ul class="head-phones">
+            <li><a href="tel:+380443604346">(044) 360-43-46</a></li>
+            <li class="hide-on-mobile"> &mdash;  &diams; &mdash; </li>
+            <li><a href="tel:+380500861003">(050) 086-10-03</a></li>
+            <li class="hide-on-mobile"> &mdash;  &diams; &mdash; </li>
+            <li><a href="tel:+380937093557">(093) 709-35-57</a></li>
+            <li class="hide-on-mobile"> &mdash;  &diams; &mdash; </li>
+            <li><a href="tel:+380973957576">(097) 395-75-76</a></li>
+        </ul>
   </div>
 </div>
 <header id="page-header">
    <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="logo"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
     <nav class="main-nav">
     <?php
         wp_nav_menu( array(
@@ -40,9 +51,6 @@
         ) );
     ?>
     </nav>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-<?php get_template_part('navbar-search'); ?>
                 </div>
             </div>
         </div>

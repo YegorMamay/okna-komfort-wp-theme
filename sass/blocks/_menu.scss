@@ -1,5 +1,6 @@
 .main-nav {
     height: auto;
+    float: right;
     
     ul.menu-container {
         display: flex;
@@ -39,7 +40,7 @@
                 top: 55px;
                 left: 0;
                 width: 200px;
-                z-index: 2;
+                z-index: 33;
                 display: none;
             }
             

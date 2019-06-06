@@ -1,3 +1,76 @@
+#pre-header {
+        padding: 8px 0;
+    
+    .head-phones {
+        display: flex;
+        justify-content: space-around;
+        
+        li {
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+}
+
 header#page-header {
     background-color: $brandColor;
+}
+
+
+.logo {
+    color: white;
+    padding-top: 17px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+@media #{$mobile} {
+    .head-phones {
+        display: block !important;
+        text-align: center;
+        
+        li {
+            display: block;
+            margin: 3px 0;
+        }
+    }
+    
+    .logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+@media #{$tablet} {
+    .head-phones {
+        display: block !important;
+        text-align: center;
+        
+        li {
+            display: block;
+            margin: 3px 0;
+        }
+    }
+    
+    .logo {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .hide-on-mobile {
+        display: none !important;
+    }
 }
