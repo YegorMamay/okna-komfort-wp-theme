@@ -1,0 +1,176 @@
+$fonts_mobile: 0.6;
+$fonts_tablet: 0.7;
+$fonts_desktop: 1;
+$fonts_screen: 1.2;
+
+$p_mobile: 0.8;
+
+$h1_size: 38px;
+$h2_size: 34px;
+$h3_size: 30px;
+$h4_size: 28px;
+$h5_size: 24px;
+$h6_size: 22px;
+  $p_size: 18px;
+
+$h1_line-height: 46px;
+$h2_line-height: 42px;
+$h3_line-height: 38px;
+$h4_line-height: 34px;
+$h5_line-height: 30px;
+$h6_line-height: 26px;
+  $p_line-height: 22px;
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: $titleFontColor;
+}
+
+@media #{$mobile} {
+    h1 {
+        font-size: $fonts_mobile * $h1_size;
+        line-height: $fonts_mobile * $h1_line-height;
+    }
+
+    h2 {
+        font-size: $fonts_mobile * $h2_size;
+        line-height: $fonts_mobile * $h2_line-height;
+    }
+
+    h3 {
+        font-size: $fonts_mobile * $h3_size;
+        line-height: $fonts_mobile * $h3_line-height;
+    }
+
+    h4 {
+        font-size: $fonts_tablet * $h4_size;
+        line-height: $fonts_tablet * $h4_line-height;
+    }
+
+    h5 {
+        font-size: $fonts_mobile * $h5_size;
+        line-height: $fonts_mobile * $h5_line-height;
+    }
+
+    h6 {
+        font-size: $fonts_mobile * $h6_size;
+        line-height: $fonts_mobile * $h6_line-height;
+    }
+
+    p {
+        font-size: $p_mobile * $p_size;
+        line-height: $p_mobile * $p_line-height;
+    }
+}
+
+@media #{$tablet} {
+    h1 {
+        font-size: $fonts_tablet * $h1_size;
+        line-height: $fonts_tablet * $h1_line-height;
+    }
+
+    h2 {
+        font-size: $fonts_tablet * $h2_size;
+        line-height: $fonts_tablet * $h2_line-height;
+    }
+
+    h3 {
+        font-size: $fonts_tablet * $h3_size;
+        line-height: $fonts_tablet * $h3_line-height;
+    }
+
+    h4 {
+        font-size: $fonts_tablet * $h4_size;
+        line-height: $fonts_tablet * $h4_line-height;
+    }
+
+    h5 {
+        font-size: $fonts_tablet * $h5_size;
+        line-height: $fonts_tablet * $h5_line-height;
+    }
+
+    h6 {
+        font-size: $fonts_tablet * $h6_size;
+        line-height: $fonts_tablet * $h6_line-height;
+    }
+
+    p {
+        font-size: $fonts_tablet * $p_size;
+        line-height: $fonts_tablet * $p_line-height;
+    }
+}
+
+@media #{$desktop} {
+    h1 {
+        font-size: $fonts_desktop * $h1_size;
+        line-height: $fonts_desktop * $h1_line-height;
+    }
+
+    h2 {
+        font-size: $fonts_desktop * $h2_size;
+        line-height: $fonts_desktop * $h2_line-height;
+    }
+
+    h3 {
+        font-size: $fonts_desktop * $h3_size;
+        line-height: $fonts_desktop * $h3_line-height;
+    }
+
+    h4 {
+        font-size: $fonts_desktop * $h4_size;
+        line-height: $fonts_desktop * $h4_line-height;
+    }
+
+    h5 {
+        font-size: $fonts_desktop * $h5_size;
+        line-height: $fonts_desktop * $h5_line-height;
+    }
+
+    h6 {
+        font-size: $fonts_desktop * $h6_size;
+        line-height: $fonts_desktop * $h6_line-height;
+    }
+
+    p {
+        font-size: $fonts_desktop * $p_size;
+        line-height: $fonts_desktop * $p_line-height;
+    }
+}
+
+@media #{$screen} {
+    h1 {
+        font-size: $fonts_screen * $h1_size;
+        line-height: $fonts_screen * $h1_line-height;
+    }
+
+    h2 {
+        font-size: $fonts_screen * $h2_size;
+        line-height: $fonts_screen * $h2_line-height;
+    }
+
+    h3 {
+        font-size: $fonts_screen * $h3_size;
+        line-height: $fonts_screen * $h3_line-height;
+    }
+
+    h4 {
+        font-size: $fonts_screen * $h4_size;
+        line-height: $fonts_screen * $h4_line-height;
+    }
+
+    h5 {
+        font-size: $fonts_screen * $h5_size;
+        line-height: $fonts_screen * $h5_line-height;
+    }
+
+    h6 {
+        font-size: $fonts_screen * $h6_size;
+        line-height: $fonts_screen * $h6_line-height;
+    }
+
+    p {
+        font-size: $fonts_screen * $p_size;
+        line-height: $fonts_screen * $p_line-height;
+    }
+}

@@ -1,0 +1,51 @@
+.main-nav {
+    height: auto;
+    
+    ul.menu-container {
+        display: flex;
+        justify-content: flex-start;
+        
+        .menu-item {
+            padding: 20px 30px;
+            background-color: $menuBgColor;
+            @include smooth_animation;
+            border-right: 1px solid $menuBgColorActive;
+            
+            &:last-child {
+                border-right: none
+            }
+            
+            &:hover {
+                background-color: $menuBgColorActive;
+                border-right: none;
+            }
+            
+            &:active {
+                -moz-box-shadow:    inset 0 0 10px #3b3b3b;
+                -webkit-box-shadow: inset 0 0 10px #3b3b3b;
+                box-shadow:         inset 0 0 10px #3b3b3b;
+            }
+            
+            a {
+                color: $menuFontColor;
+            }
+        }
+        
+        li.menu-item-has-children {
+            position: relative;
+            
+            ul.sub-menu {
+                position: absolute;
+                top: 55px;
+                left: 0;
+                width: 200px;
+                z-index: 2;
+                display: none;
+            }
+            
+            &:hover ul.sub-menu {
+                display: block;
+            }
+        }
+    }
+}

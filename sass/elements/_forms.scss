@@ -1,0 +1,24 @@
+@mixin form-style {
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+textarea {
+    width: 50%;
+}
+
+.form-inline.navbar-form {
+    float: right;
+    margin: 15px 0;
+
+}
+
+input.form-control {
+    height: 25px;
+    padding: 5px;
+    border-radius: 4px;
+}

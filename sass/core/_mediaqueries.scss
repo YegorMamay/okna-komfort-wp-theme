@@ -1,0 +1,20 @@
+/*
+$mobile: "(min-width: 544px)";
+$tablet: "(min-width: 768px)";
+$desktop: "(min-width: 992px)";
+$screen: "(min-width: 1200px)";
+*/
+
+$mobile: "(min-width: 240px) and (max-width: 544px)";
+$tablet: "(min-width: 545px) and (max-width: 768px)";
+$desktop: "(min-width: 769px) and (max-width: 1366px)";
+$screen: "(min-width: 1367px)";
+
+
+@media #{$mobile} {}
+
+@media #{$tablet} {}
+
+@media #{$desktop} {}
+
+@media #{$screen} {}

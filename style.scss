@@ -1,0 +1,99 @@
+/*
+Theme Name: Yegor Mamay  WP Theme
+Theme URI:
+Text Domain:
+Author: Yegor Mamay
+Author URI: http://www.mamai.in.ua
+Description:
+License:
+License URI:
+Version: 1.0
+Tags: one-column, two-columns, full-width-template, e-commerce
+*/
+
+/* CORE */
+@import "sass/core/reset";
+@import "sass/core/mediaqueries";
+@import "sass/core/variables";
+@import "sass/core/mixins";
+@import "sass/core/colors";
+@import "sass/core/fonts";
+@import "sass/core/wp-core";
+@import "sass/core/theme-style";
+
+/* PLUG-INs */
+//@import "sass/plugins/animate-plugin";
+@import "sass/plugins/font-awesome";
+//@import "sass/plugins/plug-ins";
+@import "sass/plugins/animations";
+
+/* BOOTSTRAP */
+//@import "sass/bootstrap/bootstrap3";
+//@import "sass/bootstrap/bootstrap-normalize";
+//@import "sass/bootstrap/bootstrap-typography";
+//@import "sass/bootstrap/bootstrap-links";
+//@import "sass/bootstrap/bootstrap-forms";
+//@import "sass/bootstrap/bootstrap-tables";
+//@import "sass/bootstrap/bootstrap-buttons";
+//@import "sass/bootstrap/bootstrap-menu";
+@import "sass/bootstrap/bootstrap-grid";
+//@import "sass/bootstrap/bootstrap-embed";
+
+
+/* PAGES */
+@import "sass/pages/single-post";
+@import "sass/pages/blog-page";
+@import "sass/pages/woo";
+
+/* ELEMENTS */
+@import "sass/elements/typography";
+@import "sass/elements/forms";
+@import "sass/elements/buttons";
+@import "sass/elements/images";
+@import "sass/elements/links";
+@import "sass/elements/pagination";
+@import "sass/elements/tables";
+
+/* BLOCKS */
+@import "sass/blocks/header";
+@import "sass/blocks/footer";
+@import "sass/blocks/menu";
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    min-width: 320px;
+    background-color: $bodyBgColor;
+    color: $bodyFontColor;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+.page-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
